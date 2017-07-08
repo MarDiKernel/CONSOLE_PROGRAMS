@@ -21,5 +21,8 @@ int main (void)
     n=numero;
   }
   
-  while 
+  while (n_hasta>=n)
+  {
+  
+  }
 }
