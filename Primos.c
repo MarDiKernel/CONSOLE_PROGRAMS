@@ -23,6 +23,25 @@ int main (void)
   
   while (n_hasta>=n)
   {
-  
+    if (n == 2){
+      printf("\n\t%d", n);
+    }
+    if (n%2 == 0){
+      n++;
+    }
+    if (n%2 !=0){
+      divisores=0;
+      for (n2=1; n2<=n; n2++)
+      {
+        if (n%n2 == 0){
+          divisores++;  
+        }
+      }
+    if (divisores == 2){
+      printf("\n\t%d", n);
+    }
+    n++;
+    n++;
+    }
   }
 }
