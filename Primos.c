@@ -26,7 +26,7 @@ int main (void)
 	printf("\n#  |  |    |     \\  |  ||  | \\/ |  || |  | ||____   |  #");
 	printf("\n#  |  |    |  |\\  \\ |  ||  |    |  || |__| | ____|  |  #");
 	printf("\n#  |__|    |__| \\__\\|__||__|    |__||______||_______|  #");
-	printf("\n <<<<<<<<<<<<<<<<<< By MARCOS S.C. >>>>>>>>>>>>>>>>>>>>");
+	printf("\n <<<<<<<<<<<<<<<<<<  By MarDiKernel >>>>>>>>>>>>>>>>>>>>");
 	
 	
 	printf("\n\nHasta que número quieres mostrar: ");
