@@ -28,6 +28,19 @@ int main()
   }
   while (n_passwd == 0)
   {
-    
+    system("clear");
+    printf("\nUSUARIO: %s\nCONTRASEÑA: ", user);
+    scanf("%s", &passwd);
+    fflush(stdin);
+    if (strcmpi (passwd, PASSWD) == 0){
+      n_passwd=1;
+    }
   }
+  fflush(stdin);
+  getchar();
+  printf("\n\n\tACCESO CONCEDIDO [ %s]", user);
+  printf("\n\nPulsa Intro para finalizar...\n");
+  getchar();
+  
+  return 0;
 }
