@@ -8,7 +8,7 @@
 
 int main (void)
 {
-	int n, numero, resultado, option, cifra;
+	int n, numero, resultado, n_hasta, option;
 	
 	
 	printf("\n  -------------------------------------- ");
@@ -27,7 +27,7 @@ int main (void)
 	scanf("%d", &numero);
 	
 	printf("\n¿Hasta que número quieres mostrar?: ");
-	scanf("%d", &cifra);
+	scanf("%d", &n_hasta);
 	
 	printf("\n\n¿Por qué número quieres que empiece?: ");
 	printf("\n\n\t1. Por 1");
@@ -46,10 +46,10 @@ int main (void)
 		scanf("%d", &n);
 	}
 	
-	while (n<=cifra){
-		resultado=n*numero;
+	for (n=n; n<=n_hasta; n++)
+	{
+		resultado = n*numero;
 		printf("\n\t%d x %d = %d", n, numero, resultado);
-		n++;	
 	}
 	
 	fflush(stdin);
