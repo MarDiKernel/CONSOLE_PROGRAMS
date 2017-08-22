@@ -10,7 +10,6 @@ int main (void)
 {
 	int n, numero, resultado, n_hasta, option;
 	
-	
 	printf("\n  -------------------------------------- ");
 	printf("\n |  ------  -----  ----   -      -----  |");
 	printf("\n | |__  __|| |_| || |_|| | |    | |_| | |");
@@ -39,7 +38,6 @@ int main (void)
 	if (option == 1){
 		n=1;
 	}
-		
 	else 
 	{
 		printf("\nCifra por la que comenzar: ");
