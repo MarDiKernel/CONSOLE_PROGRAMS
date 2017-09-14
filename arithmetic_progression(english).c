@@ -2,37 +2,37 @@
 
 int main (void)
 {
-  int a1, d, n, repuesta, n_final;
+  int a1, d, n, answer, n_end;
   
-  printf("\nNúmero de inicio: ");
+  printf("\nStart number: ");
   scanf("%d", &a1);
   fflush(stdin);
   
-  printf("\nDiferencia: ");
+  printf("\nDiference: ");
   scanf("%d", &d);
   fflush(stdin);
   
-  printf("\n\n\t1. Intervalo de posiciones\n\t2. Posicin concreta\n");
-  printf("\n\tElige una opción(1/2): ");
-  scanf("%d", &respuesta);
+  printf("\n\n\t1. Interval of positions\n\t2. Especific position\n");
+  printf("\n\tChoose a option(1/2): ");
+  scanf("%d", &answer);
   fflush(stdin);
   
-  if (respuesta == 1){
-    printf("\nPrimera posicin: ");
+  if (answer == 1){
+    printf("\nFirst position: ");
     scanf("%d", &n);
     fflush(stdin);
     
-    printf("\nÚltima posición: ");
-    scanf("%d", &n_final);
+    printf("\nLast position: ");
+    scanf("%d", &n_end);
     fflush(stdin);
     
-    for (n=n; n<=n_final; n++)
+    for (n=n; n<=n_end; n++)
     {
       printf("\n\t%d", a1+d*(n-1));
     }
   }
-  if (respuest == 2){
-    printf("\nPosición a mostrar: ");
+  if (answer == 2){
+    printf("\nPosition to show: ");
     scanf("%d", &n);
     fflush(stdin);
     
