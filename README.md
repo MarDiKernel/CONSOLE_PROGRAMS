@@ -1,2 +1,2 @@
-+# CONSOLE_PROGRAMS
-+Small console programs in C
+# CONSOLE_PROGRAMS
+Small console programs in C
