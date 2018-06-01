@@ -9,8 +9,8 @@ int main ()
   sn='S';
   
   do
-	{
-		
+  {
+	  
   }while ((sn == 'S')||(sn == 's'));
   
   printf("\n\nPulsa Intro para finalizar...\n");
